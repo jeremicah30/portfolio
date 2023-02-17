@@ -6,11 +6,9 @@ import {
   Grid,
   GridItem,
   HStack,
-  Heading,
   Button,
   Flex,
   Center,
-  Badge,
 } from "@chakra-ui/react";
 import Image from "next/image";
 import Link from "next/link";
@@ -91,9 +89,6 @@ const AboutMe = () => {
                   p={1}
                   pt={2}
                 >
-                  <Heading fontSize={"2xl"} fontFamily={"body"}>
-                    Lindsey James
-                  </Heading>
                   <Text fontWeight={600} color={"gray.500"} size="sm" mb={4}>
                     FOODPALS
                   </Text>
@@ -162,9 +157,6 @@ const AboutMe = () => {
                   p={1}
                   pt={2}
                 >
-                  <Heading fontSize={"2xl"} fontFamily={"body"}>
-                    Lindsey James
-                  </Heading>
                   <Text fontWeight={600} color={"gray.500"} size="sm" mb={4}>
                     FITNESS WEBSITE
                   </Text>
@@ -233,9 +225,6 @@ const AboutMe = () => {
                   p={1}
                   pt={2}
                 >
-                  <Heading fontSize={"2xl"} fontFamily={"body"}>
-                    Lindsey James
-                  </Heading>
                   <Text fontWeight={600} color={"gray.500"} size="sm" mb={4}>
                     MOGO
                   </Text>
