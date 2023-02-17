@@ -9,6 +9,14 @@ import {
   Button,
   Flex,
   Center,
+  VStack,
+  Card,
+  CardBody,
+  Heading,
+  CardFooter,
+  List,
+  ListItem,
+  ListIcon,
 } from "@chakra-ui/react";
 import Image from "next/image";
 import Link from "next/link";
@@ -24,9 +32,10 @@ const AboutMe = () => {
       textAlign="center"
       paddingBlock="50px"
       paddingInline="10rem"
+      justifyContent="center"
     >
       <Box
-        maxWidth="50%"
+        maxWidth="70%"
         marginInline="auto"
         paddingBlock="1rem"
         textAlign="center"
@@ -42,8 +51,34 @@ const AboutMe = () => {
         </Text>
       </Box>
 
+      <VStack paddingTop="1rem" paddingBottom="2rem">
+        <Text>Here are my works</Text>
+        <List>
+          <ListItem>
+            <Link
+              href="https://food-4lqkwajlt-jeremicah30.vercel.app"
+              className="listItem"
+            >
+              Foodpals
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link
+              href="https://fitness-ui-teal.vercel.app/"
+              className="listItem"
+            >
+              FitnessUI
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://mogo-rosy.vercel.app/" className="listItem">
+              Mogo
+            </Link>
+          </ListItem>
+        </List>
+      </VStack>
+
       <Stack justifyContent="center">
-        <Text>Contact me:</Text>
         <HStack justifyContent="center">
           <Link href={`mailto:licupjeremicah3245@gmail.com`} className="link">
             email
@@ -58,6 +93,7 @@ const AboutMe = () => {
         </HStack>
       </Stack>
 
+      {/* 
       <Box paddingBlock="3rem">
         <Text textDecoration="underline">Here are my works</Text>
         <Grid templateColumns="repeat(3, 1fr)" gap={4}>
@@ -264,7 +300,7 @@ const AboutMe = () => {
             </Center>
           </GridItem>
         </Grid>
-      </Box>
+      </Box> */}
     </Stack>
   );
 };

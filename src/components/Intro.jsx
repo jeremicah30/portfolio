@@ -31,12 +31,17 @@ const Intro = () => {
       justify="center"
       alignItems="center"
       height="100vh"
-      paddingInline="10rem"
+      padding={[null, "1rem", "10rem"]}
     >
-      <Box width="40%" textAlign="center" fontSize="20rem" color="black">
+      <Box
+        width="40%"
+        textAlign="center"
+        fontSize={["4rem", "4rem", "8rem", "12rem"]}
+        color="black"
+      >
         <Text borderRight="4px solid black">Hey</Text>
       </Box>
-      <Box width="60%" fontSize="3.5rem">
+      <Box width="60%" fontSize={["1.5rem", "2.5rem", "3.5rem"]}>
         <span ref={typedTextRef}></span>
       </Box>
     </HStack>

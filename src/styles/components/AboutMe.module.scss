@@ -1,6 +1,12 @@
 .link {
   &:hover {
     color: rgb(219, 219, 219);
+  }
+}
+
+.listItem {
+  &:hover {
+    color: rgb(117, 117, 117);
     text-decoration: underline;
   }
 }
