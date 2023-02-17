@@ -55,10 +55,7 @@ const AboutMe = () => {
         <Text>Here are my works</Text>
         <List>
           <ListItem>
-            <Link
-              href="https://food-4lqkwajlt-jeremicah30.vercel.app"
-              className="listItem"
-            >
+            <Link href="https://foodpals.vercel.app/" className="listItem">
               Foodpals
             </Link>
           </ListItem>
