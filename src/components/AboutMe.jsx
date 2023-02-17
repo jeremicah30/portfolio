@@ -76,7 +76,12 @@ const AboutMe = () => {
                 padding={4}
               >
                 <Flex flex={1} bg="blue.200">
-                  <Image objectFit="cover" boxSize="100%" src={Foodpals} alt="image"/>
+                  <Image
+                    objectFit="cover"
+                    boxSize="100%"
+                    src={Foodpals}
+                    alt="image"
+                  />
                 </Flex>
                 <Stack
                   flex={1}
@@ -142,7 +147,12 @@ const AboutMe = () => {
                 padding={4}
               >
                 <Flex flex={1} bg="blue.200">
-                  <Image objectFit="cover" boxSize="100%" src={Fitness} alt="image/>
+                  <Image
+                    objectFit="cover"
+                    boxSize="100%"
+                    src={Fitness}
+                    alt="image"
+                  />
                 </Flex>
                 <Stack
                   flex={1}
@@ -208,7 +218,12 @@ const AboutMe = () => {
                 padding={4}
               >
                 <Flex flex={1} bg="blue.200">
-                  <Image objectFit="cover" boxSize="100%" src={Mogo} alt="image"/>
+                  <Image
+                    objectFit="cover"
+                    boxSize="100%"
+                    src={Mogo}
+                    alt="image"
+                  />
                 </Flex>
                 <Stack
                   flex={1}
