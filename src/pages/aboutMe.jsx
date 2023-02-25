@@ -15,13 +15,7 @@ const AboutMe = () => {
       >
         <Image src={Me} width={500} alt="My Image" className="fade-in-fwd" />
       </Flex>
-      <Flex
-        height="100%"
-        width="50%"
-        color="white"
-        justifyContent="center"
-        alignItems="center"
-      >
+      <Flex height="100%" width="50%" color="white" alignItems="center">
         <Box>
           <Text fontWeight="700" fontSize="1.2rem">
             WHO AM I
@@ -29,7 +23,7 @@ const AboutMe = () => {
           <Text fontSize="3rem" fontWeight="700">
             I AM JEREMICAH LICUP A WEB DEVELOPER
           </Text>
-          <Text>
+          <Text lineHeight="30px" letterSpacing="1px">
             I'm a filipino Web Developer focusing mainly in frontend
             development. I'm 24 years old graduated from Mabalacat City College
             in year 2022. I am a degree holder in Bachelors of Science in

@@ -65,7 +65,7 @@ const Whole = () => {
         </Stack>
         <HStack width="55%" alignItems="end" className="box-con">
           <Box className="box">
-            <Link href="/works" className="box--link">
+            <Link href="/" className="box--link">
               HOME
             </Link>
           </Box>
@@ -80,12 +80,12 @@ const Whole = () => {
             </Link>
           </Box>
           <Box className="box">
-            <Link href="/works" className="box--link">
+            <Link href="/" className="box--link">
               CONTACTS
             </Link>
           </Box>
           <Box className="box">
-            <Link href="/works" className="box--link">
+            <Link href="/" className="box--link">
               SAMPLE
             </Link>
           </Box>
