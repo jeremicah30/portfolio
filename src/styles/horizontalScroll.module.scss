@@ -1,0 +1,17 @@
+.horizontal-scroll {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch; /* For smoother scrolling on iOS */
+  scroll-behavior: smooth; /* For smooth scrolling */
+  //height: 300px; /* Set a fixed height for the scrollable container */
+
+  //   .item {
+  //     flex: 0 0 auto;
+  //     width: 200px; /* Set the width of each item */
+  //     height: 200px;
+  //     margin-right: 20px; /* Add some margin between items */
+  //     background-color: #ccc; /* Add a background color to each item */
+  //     border-radius: 10px;
+  //   }
+}

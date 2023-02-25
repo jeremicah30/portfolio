@@ -1,5 +1,13 @@
 //GLOBAL
 @import "../styles/globals.scss";
 
-//COMPONENTS
-@import "../styles/components/AboutMe.module.scss";
+//COMPONENT
+@import "../styles/components/Whole.module.scss",
+  "../styles/components/Navbar.module.scss", "../styles/pages/Works.module.scss";
+
+//PAGES
+@import "../styles/pages/Works.module.scss",
+  "../styles/pages/AboutMe.module.scss";
+
+//Horizontal
+@import "../styles/horizontalScroll.module.scss";

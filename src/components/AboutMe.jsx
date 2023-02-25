@@ -33,13 +33,9 @@ const AboutMe = () => {
       paddingBlock="50px"
       paddingInline="10rem"
       justifyContent="center"
+      width="100%"
     >
-      <Box
-        maxWidth="70%"
-        marginInline="auto"
-        paddingBlock="1rem"
-        textAlign="center"
-      >
+      <Stack marginInline="auto" paddingBlock="1rem" textAlign="center">
         <Text fontSize="md">I am</Text>
         <Text letterSpacing="1rem" fontSize="3rem">
           Jeremicah Licup
@@ -49,7 +45,7 @@ const AboutMe = () => {
           I'm 24 years old graduated from Mabalacat City College in year 2022. I
           am a degree holder in Bachelors of Science in Information Technology
         </Text>
-      </Box>
+      </Stack>
 
       <VStack paddingTop="1rem" paddingBottom="2rem">
         <Text>Here are my works</Text>

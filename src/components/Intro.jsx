@@ -42,7 +42,10 @@ const Intro = () => {
         <Text borderRight="4px solid black">Hey</Text>
       </Box>
       <Box width="60%" fontSize={["1.5rem", "2.5rem", "3.5rem"]}>
-        <span ref={typedTextRef}></span>
+        <span
+          ref={typedTextRef}
+          style={{ fontFamily: "'Source Code Pro', monospace" }}
+        ></span>
       </Box>
     </HStack>
   );

@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Intro, AboutMe } from "@/components";
+import { Intro, Whole, Sidebar } from "@/components";
 
 export default function Home() {
   return (
@@ -11,8 +11,8 @@ export default function Home() {
         <link rel="icon" href="/wave.png" />
       </Head>
       <main>
-        <Intro />
-        <AboutMe />
+        {/* <Intro /> */}
+        <Whole />
       </main>
     </>
   );
