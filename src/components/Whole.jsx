@@ -84,11 +84,6 @@ const Whole = () => {
               CONTACTS
             </Link>
           </Box>
-          <Box className="box">
-            <Link href="/" className="box--link">
-              SAMPLE
-            </Link>
-          </Box>
         </HStack>
       </HorizontalScroll>
     </Box>

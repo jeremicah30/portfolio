@@ -82,10 +82,11 @@ const works = () => {
                 <Box className="slide-in-blurred-right">
                   <Image src={ff} alt="Foodpals Image" />
                   <Text>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Reprehenderit laudantium doloremque quam et expedita,
-                    blanditiis atque non. Nisi, fugiat perferendis. Eos ipsum
-                    officiis incidunt voluptate excepturi ea libero odio harum.
+                    This is a simple food recipe website Which i used a third
+                    party api made in nextJS.Visit it here
+                    <span>
+                      <a href="https://foodpals.vercel.app/">Foodpals</a>
+                    </span>
                   </Text>
                 </Box>
               )}
@@ -94,7 +95,13 @@ const works = () => {
               {activeTab === 2 && (
                 <Box className="slide-in-blurred-right">
                   <Image src={ee} alt="Foodpals Image" />
-                  <Text>This is a simple ajdskfdnk</Text>
+                  <Text>
+                    This is a static landing page for exercises and workout
+                    using ReactJS. Visit it here{" "}
+                    <span>
+                      <a href="https://fitness-ui-teal.vercel.app/">Foodpals</a>
+                    </span>
+                  </Text>
                 </Box>
               )}
             </Box>
@@ -102,7 +109,13 @@ const works = () => {
               {activeTab === 3 && (
                 <Box className="slide-in-blurred-right">
                   <Image src={mm} alt="Foodpals Image" />
-                  <Text>This is a simple ajdskfdnk</Text>
+                  <Text>
+                    This is a copy of MOGO landing page that i create using HTML
+                    and CSS. Visit it here{" "}
+                    <span>
+                      <a href="https://mogo-rosy.vercel.app/">Foodpals</a>
+                    </span>
+                  </Text>
                 </Box>
               )}
             </Box>
